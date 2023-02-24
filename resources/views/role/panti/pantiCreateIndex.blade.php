@@ -1,5 +1,11 @@
-@extends('layout.header')
-@section('isicard')
+@extends('layout.core.index')
+@section('title')
+    Admin - Daftar Panti Asuhan
+@endsection
+@section('css')
+    <link rel="stylesheet" href="{{ asset('assets/js/plugins/select2/css/select2.min.css') }}">
+@endsection
+@section('content')
     <div class="main-panel">
         <div class="content-wrapper">
             <div class="row ">
@@ -33,4 +39,5 @@
         </footer>
     </div>
 @endsection
-@extends('layout.footer')
+@section('js')
+@endsection
